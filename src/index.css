@@ -5,9 +5,88 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  background-image: url("https://www.pngwing.com/en/free-png-dheul");
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.logoPic{
+  height: 4rem;
+  width: 4rem;
+  margin-right:1rem;
+}
+.LayoutMainDiv{
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  background-color: #DDDDDD;
+}
+.LayoutMainDiv>h2{
+  padding-right: 5rem;
+}
+.inputSearch {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #3c15ea;
+  border-radius: 16px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 10px;
+  font-weight: bold;
+  color:darkslategrey;
+}
+.searchButton{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  border-radius: 25%;
+  margin-left: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  height: 45px;
+}
+.searchButton:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.theImages
+{
+  box-shadow: 50px -20px 20px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 5px 5px;
+}
+.theImages:hover
+{
+  width: 40%;
+  height: 70%;
+
+}
+.searchBook
+{
+  marginLeft: 20;
+  text-shadow: 30px 10px 10px #6e6e6e;
+}
+.titleStyle
+{
+  font-family: "Times New Roman";
+  color: chocolate;
+  font-size: 20px;
+}
+.heartButton
+{
+
+  font-size: 30px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
 }
